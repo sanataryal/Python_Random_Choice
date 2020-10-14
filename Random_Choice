@@ -1,0 +1,16 @@
+import random as ran
+food_in_fridge = [
+    "Eggs",
+    "Toasts",
+    "Pasta",
+    "Noodles",
+    "Chicken",
+    "RoastBeef",
+    "Steak Sandwich",
+    "Coffee Cake",
+    "Cheese fries",
+    "Veggie Burger",
+    "Rice & Shrimp"
+]
+lucky_food = ran.choice(food_in_fridge)
+print("Food that I can eat today is: ", lucky_food)
